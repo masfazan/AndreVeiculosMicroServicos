@@ -13,7 +13,11 @@ namespace APIBanco.Data
             : base(options)
         {
         }
-
         public DbSet<Models.Banco> Banco { get; set; } = default!;
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            
+        }
     }
 }

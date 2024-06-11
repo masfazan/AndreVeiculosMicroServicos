@@ -13,7 +13,7 @@ namespace APICondutor.Data
             : base(options)
         {
         }
-
+        
         public DbSet<Models.Condutor> Condutor { get; set; } = default!;
 
         public DbSet<Models.CNH>? CNH { get; set; }

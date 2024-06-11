@@ -15,5 +15,7 @@ namespace APIFuncionario.Data
         }
 
         public DbSet<Models.Funcionario> Funcionario { get; set; } = default!;
+
+        public DbSet<Models.Cargo>? Cargo { get; set; }
     }
 }
