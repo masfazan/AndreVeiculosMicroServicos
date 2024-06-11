@@ -10,5 +10,6 @@ namespace Models
     {
 
         public Decimal Renda { get; set; }
+        public string DocumentoPdf { get; set; }
     }
 }

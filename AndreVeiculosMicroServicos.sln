@@ -3,27 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndreVeiculosMicroServicos", "AndreVeiculosMicroServicos\AndreVeiculosMicroServicos.csproj", "{4ACBFB93-6BD7-4615-9F0C-A0148F7FA78D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndreVeiculosMicroServicos", "AndreVeiculosMicroServicos\AndreVeiculosMicroServicos.csproj", "{4ACBFB93-6BD7-4615-9F0C-A0148F7FA78D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{A1BD3785-725A-4FB5-81BC-6AFFBFEC25CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{A1BD3785-725A-4FB5-81BC-6AFFBFEC25CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICliente", "APICliente\APICliente.csproj", "{B5594F69-F437-4239-AD89-4E269BB6E523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICliente", "APICliente\APICliente.csproj", "{B5594F69-F437-4239-AD89-4E269BB6E523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFuncionario", "APIFuncionario\APIFuncionario.csproj", "{3F511109-6975-4DF9-B7BE-F2E6402DC2C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIFuncionario", "APIFuncionario\APIFuncionario.csproj", "{3F511109-6975-4DF9-B7BE-F2E6402DC2C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIPagamento", "APIPagamento\APIPagamento.csproj", "{BD4F72B5-5BAB-474A-B3E6-5CA42926ECDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIPagamento", "APIPagamento\APIPagamento.csproj", "{BD4F72B5-5BAB-474A-B3E6-5CA42926ECDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIServico", "APIServico\APIServico.csproj", "{E80AD149-842C-4153-8586-8635965E0450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIServico", "APIServico\APIServico.csproj", "{E80AD149-842C-4153-8586-8635965E0450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIVenda", "APIVenda\APIVenda.csproj", "{198EE24F-B1F1-43FA-8047-D2F91EC4B61D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIVenda", "APIVenda\APIVenda.csproj", "{198EE24F-B1F1-43FA-8047-D2F91EC4B61D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICarro", "APICarro\APICarro.csproj", "{F49EAE49-7EDE-496E-92ED-37BD708C9548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICarro", "APICarro\APICarro.csproj", "{F49EAE49-7EDE-496E-92ED-37BD708C9548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICompra", "APICompra\APICompra.csproj", "{141D4513-9E62-47F1-9AB1-004F8157F4A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICompra", "APICompra\APICompra.csproj", "{141D4513-9E62-47F1-9AB1-004F8157F4A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIServicoCarro", "APIServicoCarro\APIServicoCarro.csproj", "{059F36D9-32CB-48A9-9EA4-5DE50DF28C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIServicoCarro", "APIServicoCarro\APIServicoCarro.csproj", "{059F36D9-32CB-48A9-9EA4-5DE50DF28C62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIEndereco", "APIEndereco\APIEndereco.csproj", "{D08EA4A6-FB11-4225-BA6C-8FA9ABC6CF9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIEndereco", "APIEndereco\APIEndereco.csproj", "{D08EA4A6-FB11-4225-BA6C-8FA9ABC6CF9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIValidacaoPendenciaFinanceira", "APIValidacaoPendenciaFinanceira\APIValidacaoPendenciaFinanceira.csproj", "{88E079AD-F77F-442F-B395-35FF5B9FA2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDependente", "APIDependente\APIDependente.csproj", "{E9F9884A-D6D7-4437-B893-F297C050328E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APISeguro", "APISeguro\APISeguro.csproj", "{0AA790E5-4599-4B66-9A06-DECEE07488A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITermoDeUso", "APITermoDeUso\APITermoDeUso.csproj", "{6796880F-306A-4B81-B966-88BC9D822293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFinanciamento", "APIFinanciamento\APIFinanciamento.csproj", "{3BC0B7C5-A7AB-4E00-AC1A-2582F605B51F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIBanco", "APIBanco\APIBanco.csproj", "{661D52E0-68A1-435A-87DD-19111091534A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICondutor", "APICondutor\APICondutor.csproj", "{93D7B31C-EC41-4C5B-B9CB-89D83F0C2C1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +89,34 @@ Global
 		{D08EA4A6-FB11-4225-BA6C-8FA9ABC6CF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08EA4A6-FB11-4225-BA6C-8FA9ABC6CF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08EA4A6-FB11-4225-BA6C-8FA9ABC6CF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E079AD-F77F-442F-B395-35FF5B9FA2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E079AD-F77F-442F-B395-35FF5B9FA2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E079AD-F77F-442F-B395-35FF5B9FA2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E079AD-F77F-442F-B395-35FF5B9FA2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F9884A-D6D7-4437-B893-F297C050328E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F9884A-D6D7-4437-B893-F297C050328E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F9884A-D6D7-4437-B893-F297C050328E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F9884A-D6D7-4437-B893-F297C050328E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA790E5-4599-4B66-9A06-DECEE07488A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA790E5-4599-4B66-9A06-DECEE07488A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA790E5-4599-4B66-9A06-DECEE07488A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA790E5-4599-4B66-9A06-DECEE07488A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6796880F-306A-4B81-B966-88BC9D822293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6796880F-306A-4B81-B966-88BC9D822293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6796880F-306A-4B81-B966-88BC9D822293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6796880F-306A-4B81-B966-88BC9D822293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC0B7C5-A7AB-4E00-AC1A-2582F605B51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC0B7C5-A7AB-4E00-AC1A-2582F605B51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC0B7C5-A7AB-4E00-AC1A-2582F605B51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC0B7C5-A7AB-4E00-AC1A-2582F605B51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661D52E0-68A1-435A-87DD-19111091534A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661D52E0-68A1-435A-87DD-19111091534A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661D52E0-68A1-435A-87DD-19111091534A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661D52E0-68A1-435A-87DD-19111091534A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D7B31C-EC41-4C5B-B9CB-89D83F0C2C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D7B31C-EC41-4C5B-B9CB-89D83F0C2C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D7B31C-EC41-4C5B-B9CB-89D83F0C2C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D7B31C-EC41-4C5B-B9CB-89D83F0C2C1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
