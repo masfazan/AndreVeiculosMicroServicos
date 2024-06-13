@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace APIBanco.Controllers
+namespace APIBancoMongo.Controllers
 {
     [ApiController]
     [Route("[controller]")]

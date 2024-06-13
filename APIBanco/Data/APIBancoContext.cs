@@ -19,5 +19,6 @@ namespace APIBanco.Data
             base.OnModelCreating(modelBuilder);
             
         }
+        public DbSet<Models.Message>? Message { get; set; }
     }
 }

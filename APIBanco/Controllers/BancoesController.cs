@@ -21,6 +21,7 @@ namespace APIBanco.Controllers
             _context = context;
         }
 
+
         // GET: api/Bancoes
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Banco>>> GetBanco()
