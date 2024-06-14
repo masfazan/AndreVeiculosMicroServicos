@@ -2,7 +2,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using APIBancoSQL.Data;
 using Microsoft.Extensions.Options;
-using APIBancoSQL.Utils;
 using Consumer.Services;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<APIBancoSQLContext>(options =>
@@ -14,16 +13,6 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-
-// Configurações para receber os dados do arquivo de configuração 
-builder.Services.Configure<BancoSQLSettings>(
-    builder.Configuration.GetSection(nameof(BancoSQLSettings)));
-
-builder.Services.AddSingleton<IBancoSQLSettings>(
-        sp => sp.GetRequiredService<IOptions<BancoSQLSettings>>().Value);
-
-builder.Services.AddSingleton<MessageService>();
 
 var app = builder.Build();
 

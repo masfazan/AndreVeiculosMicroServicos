@@ -1,25 +1,27 @@
-﻿using Models;
+﻿using APIEndereco.Utils;
+using Models;
+using MongoDB.Driver;
 
 namespace APIEndereco.Services
 {
     public class EnderecoService
     {
-        private readonly IMongoCollection<Banco> _banco;
+        private readonly IMongoCollection<Endereco> _endereco;
 
-        public BancoService(IBancoSettings settings)
+        public EnderecoService(IEnderecoSettings settings)
         {
-            var banco = new MongoClient(settings.ConnectionString);
-            var database = banco.GetDatabase(settings.DatabaseName);
-            _banco = database.GetCollection<Banco>(settings.BancoCollectionName);
+            var endereco = new MongoClient(settings.ConnectionString);
+            var database = endereco.GetDatabase(settings.DatabaseName);
+            _endereco = database.GetCollection<Endereco>(settings.BancoCollectionName);
         }
 
-        public List<Banco> Get() => _banco.Find(banco => true).ToList();
-        public Banco Get(string Cnpj) => _banco.Find<Banco>(banco => banco.Cnpj == Cnpj).FirstOrDefault();
+        public List<Endereco> Get() => _endereco.Find(endereco => true).ToList();
+        public Endereco Get(int Id) => _endereco.Find<Endereco>(endereco => endereco.Id == Id).FirstOrDefault();
 
-        public Banco Create(Banco banco)
+        public Endereco Create(Endereco endereco)
         {
-            _banco.InsertOne(banco);
-            return banco;
+            _endereco.InsertOne(endereco);
+            return endereco;
         }
     }
 }
