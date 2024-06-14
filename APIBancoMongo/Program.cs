@@ -4,6 +4,8 @@ using APIBancoMongo.Data;
 using Microsoft.Extensions.Options;
 using APIBancoMongo.Utils;
 using Consumer.Services;
+using APIBancoMongo.Services;
+using APIBanco.Utils;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<APIBancoMongoContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("APIBancoMongoContext") ?? throw new InvalidOperationException("Connection string 'APIBancoMongoContext' not found.")));
@@ -19,12 +21,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<BancoMongoSettings>(
     builder.Configuration.GetSection(nameof(BancoMongoSettings)));
 
-builder.Services.AddSingleton<IBancoMongoSettings>(
-        sp => sp.GetRequiredService<IOptions<BancoMongoSettings>>().Value);
+builder.Services.AddSingleton<IBancoMongoSettings>(sp =>
+    sp.GetRequiredService<IOptions<BancoMongoSettings>>().Value);
 
-builder.Services.AddSingleton<MessageService>();
-
-
+builder.Services.AddSingleton<BancoMongoServices>();
 
 var app = builder.Build();
 

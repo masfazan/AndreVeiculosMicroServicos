@@ -14,11 +14,12 @@ namespace APIBanco.Data
         {
         }
         public DbSet<Models.Banco> Banco { get; set; } = default!;
+        public DbSet<Models.Message>? Message { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             
         }
-        public DbSet<Models.Message>? Message { get; set; }
+       
     }
 }
